@@ -1,4 +1,4 @@
 $("img").on("click", function () {
-    alert("clicked!");
-    console.log($(this).val());
+    var value = document.getElementsByClassName("img").useMap;
+    console.log(parseInt(value));
 })
